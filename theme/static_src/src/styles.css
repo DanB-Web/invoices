@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
+@layer base {
+  @font-face {
+    font-family: Spartan;
+    font-weight: 400;
+    src: url("../../fonts/SpartanMB-Regular.otf") format("otf");
+  }
+  @font-face {
+    font-family: Spartan;
+    font-weight: 700;
+    src: url("../../fonts/SpartanMB-Bold.otf") format("otf");
+  }
+}
 
 @tailwind base;
 @tailwind components;

@@ -43,12 +43,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["League Spartan"], // setting the default font-family
-    },
-    extend: {
-      fontFamily: {
-        spartan: ["League Spartan", "sans-serif"], // making possible to use classes font-roboto and font-dancing-script
-      },
+      sans: ["Spartan", "sans-serif"], // setting the default font-family
     },
   },
   plugins: [

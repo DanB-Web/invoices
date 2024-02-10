@@ -1,0 +1,64 @@
+<form method="post">
+  {% csrf_token %}
+  <label for="invoice_ref">Invoice Ref</label>
+  <input type="text" id="invoice_ref" name="invoice_ref" value="{{ invoice.invoice_ref }}">
+  {{ form.invoice_ref.errors }}
+  <fieldset>
+    <legend>Bill From</legend>
+    <label for="sender_street">Street Address</label>
+    <input type="text" id="sender_street" name="sender_street" value="{{ invoice.sender_street }}">
+    {{ form.sender_street.errors }}
+    <label for="sender_city">City</label>
+    <input type="text" id="sender_city" name="sender_city" value="{{ invoice.sender_city }}">
+    {{ form.sender_city.errors }}
+    <label for="sender_postcode">Post Code</label>
+    <input type="text" id="sender_postcode" name="sender_postcode" value="{{ invoice.sender_postcode }}">
+    {{ form.sender_postcode.errors }}
+    <label for="invoice_ref">Country</label>
+    <input type="text" id="sender_country" name="sender_country" value="{{ invoice.sender_country }}">
+    {{ form.sender_country.errors }}
+  </fieldset>
+  <fieldset>
+    <legend>Bill To</legend>
+     <label for="client_name">Client's Name</label>
+    <input type="text" id="client_name" name="client_name" value="{{ invoice.client_name }}">
+    {{ form.client_name.errors }}
+    <label for="client_email">Client's Email</label>
+    <input type="text" id="client_email" name="client_email" value="{{ invoice.client_email }}">
+    {{ form.client_email.errors }}
+    <label for="client_street">Street Address</label>
+    <input type="text" id="client_street" name="client_street" value="{{ invoice.client_street }}">
+    {{ form.client_street.errors }}
+    <label for="client_city">City</label>
+    <input type="text" id="client_city" name="client_city" value="{{ invoice.client_city }}">
+    {{ form.client_city.errors }}
+    <label for="client_postcode">Post Code</label>
+    <input type="text" id="client_postcode" name="client_postcode" value="{{ invoice.client_postcode }}">
+    {{ form.client_postcode.errors }}
+    <label for="client_country">Country</label>
+    <input type="text" id="client_country" name="client_country" value="{{ invoice.client_country }}">
+    {{ form.client_country.errors }}
+  </fieldset>
+  <fieldset>
+     <label for="created_at">Invoice Date</label>
+     <input type="date" id="created_at" name="created_at" value="{{ invoice.created_at }}">
+     {{ form.created_at.errors }}
+     <label for="payment_terms">Payment Terms</label>
+     <select id="payment_terms" name="payment_terms">
+        {% for option, label in payment_terms_options %}
+          {% if option == invoice.payment_terms %}
+            <option selected value="{{ option }}">{{ label }}</option>
+          {% else %}
+            <option value="{{ option }}">{{ label }}</option>
+          {% endif %}
+        {% endfor %}
+     </select>
+     {{ form.payment_terms.errors }}
+     <label for="description">Description</label>
+     <input type="text" id="description" name="description" value="{{ invoice.description }}">
+     {{ form.description.errors }}
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+
+{% comment %} <option value="{{ option.value }}">{{ option }}</option> {% endcomment %}

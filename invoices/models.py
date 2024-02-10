@@ -2,11 +2,12 @@ import uuid
 from django.db import models
 from django.core.validators import MinValueValidator
 from users.models import CustomUser
+from .forms import PAYMENT_TERMS
 
 PAYMENT_STATUS = [
-    ("DR", "draft"),
-    ("PA", "paid"),
-    ("PE", "pending"),
+    ("DR", "Draft"),
+    ("PA", "Paid"),
+    ("PE", "Pending"),
 ]
 
 """
@@ -25,7 +26,10 @@ class Invoice(models.Model):
     created_at = models.DateField()
     payment_due = models.DateField()
     description = models.TextField()
-    payment_terms = models.IntegerField()
+    payment_terms = models.CharField(
+        choices=PAYMENT_TERMS,
+        max_length=255,
+    )
     client_name = models.CharField(max_length=255)
     client_email = models.EmailField(blank=True, null=True)
     status = models.CharField(
