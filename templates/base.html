@@ -1,0 +1,20 @@
+{% load static %} {% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Invoices</title>
+    <script
+      type="text/javascript"
+      src="{% static '/js/htmx.min.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static '/js/alpine.min.js' %}"
+    ></script>
+    {% tailwind_css %}
+  </head>
+  <body class="bg-custom-powder-light">
+    <main>{% block content %} {% endblock %}</main>
+  </body>
+</html>
