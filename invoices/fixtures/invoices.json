@@ -1,0 +1,253 @@
+[
+  {
+    "model": "invoices.invoice",
+    "pk": "0bab82ed-7813-45d2-a150-ecbd27895cbf",
+    "fields": {
+      "invoice_ref": "RG0314",
+      "owner": 2,
+      "created_at": "2021-09-24",
+      "payment_due": "2021-10-01",
+      "description": "Website Redesign",
+      "payment_terms": 7,
+      "client_name": "John Morrison",
+      "client_email": "jm@myco.com",
+      "status": "PA",
+      "sender_street": "19 Union Terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "79 Dover Road",
+      "client_city": "Westhall",
+      "client_postcode": "IP19 3PF",
+      "client_country": "United Kingdom"
+    }
+  },
+  {
+    "model": "invoices.invoice",
+    "pk": "b5ff69ac-5118-4cfb-8dd9-efd3218915c0",
+    "fields": {
+      "invoice_ref": "FV2353",
+      "owner": 2,
+      "created_at": "2021-11-05",
+      "payment_due": "2021-11-12",
+      "description": "Logo Re-design",
+      "payment_terms": 7,
+      "client_name": "Anita Wainwright",
+      "client_email": null,
+      "status": "DR",
+      "sender_street": "19 Union Terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "",
+      "client_city": "",
+      "client_postcode": "",
+      "client_country": ""
+    }
+  },
+  {
+    "model": "invoices.invoice",
+    "pk": "b8cb4554-593a-4b7e-ae28-a046f1dcba58",
+    "fields": {
+      "invoice_ref": "RT3080",
+      "owner": 2,
+      "created_at": "2021-08-18",
+      "payment_due": "2021-08-19",
+      "description": "Re-branding",
+      "payment_terms": 1,
+      "client_name": "Jensen Huang",
+      "client_email": "jensenh@mail.com",
+      "status": "PA",
+      "sender_street": "19 Union Terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "106 Kendall Street",
+      "client_city": "Sharrington",
+      "client_postcode": "NR24 5WQ",
+      "client_country": "United Kingdom"
+    }
+  },
+  {
+    "model": "invoices.invoice",
+    "pk": "d5dbf54e-849f-43ba-96ce-819a2537d0bb",
+    "fields": {
+      "invoice_ref": "AA1449",
+      "owner": 2,
+      "created_at": "2021-10-07",
+      "payment_due": "2021-10-14",
+      "description": "Re-branding",
+      "payment_terms": 7,
+      "client_name": "Mellisa Clarke",
+      "client_email": "mellisa.clark@example.com",
+      "status": "PE",
+      "sender_street": "19 Union Terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "46 Abbey Road",
+      "client_city": "Cambridge",
+      "client_postcode": "CB5 6EG",
+      "client_country": "United Kingdom"
+    }
+  },
+  {
+    "model": "invoices.invoice",
+    "pk": "d8931f38-e53a-4946-ba1f-bc7022647c2a",
+    "fields": {
+      "invoice_ref": "TY9141",
+      "owner": 2,
+      "created_at": "2021-10-01",
+      "payment_due": "2021-10-31",
+      "description": "Landing Page Design",
+      "payment_terms": 30,
+      "client_name": "Thomas Wayne",
+      "client_email": "thomas@dc.com",
+      "status": "PE",
+      "sender_street": "19 Union terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "3964 Queens lane",
+      "client_city": "Gotham",
+      "client_postcode": "60457",
+      "client_country": "United States of America"
+    }
+  },
+  {
+    "model": "invoices.invoice",
+    "pk": "e0e23f34-ad20-4c39-8e70-c75519d05b1a",
+    "fields": {
+      "invoice_ref": "XM9141",
+      "owner": 2,
+      "created_at": "2021-08-21",
+      "payment_due": "2021-09-20",
+      "description": "Graphic Design",
+      "payment_terms": 30,
+      "client_name": "Alex Grim",
+      "client_email": "alexgrim@mail.com",
+      "status": "PE",
+      "sender_street": "19 Union Terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "84 Church Way",
+      "client_city": "Bradford",
+      "client_postcode": "BD1 9PB",
+      "client_country": "United Kingdom"
+    }
+  },
+  {
+    "model": "invoices.invoice",
+    "pk": "ed496cfb-9e88-4c63-afc3-182a17368f6a",
+    "fields": {
+      "invoice_ref": "RT2080",
+      "owner": 2,
+      "created_at": "2021-10-11",
+      "payment_due": "2021-10-12",
+      "description": "Logo Concept",
+      "payment_terms": 1,
+      "client_name": "Alysa Werner",
+      "client_email": "alysa@email.co.uk",
+      "status": "PE",
+      "sender_street": "19 Union Terrace",
+      "sender_city": "London",
+      "sender_postcode": "E1 3EZ",
+      "sender_country": "United Kingdom",
+      "client_street": "63 Warwick Road",
+      "client_city": "Carlisle",
+      "client_postcode": "CA20 2TG",
+      "client_country": "United Kingdom"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "1489afd5-bdac-4a03-8067-df4d56f2f5d6",
+    "fields": {
+      "name": "New Logo",
+      "quantity": 1,
+      "price": "1532.33",
+      "invoice": "d5dbf54e-849f-43ba-96ce-819a2537d0bb"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "1ef74c24-48b1-441a-9b63-01c76c49394b",
+    "fields": {
+      "name": "Email Design",
+      "quantity": 2,
+      "price": "200.00",
+      "invoice": "e0e23f34-ad20-4c39-8e70-c75519d05b1a"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "353fb2fa-e95a-4e12-a66c-659801aa3a97",
+    "fields": {
+      "name": "Website Redesign",
+      "quantity": 1,
+      "price": "14002.33",
+      "invoice": "0bab82ed-7813-45d2-a150-ecbd27895cbf"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "9ec6d64b-7c3e-4df8-b1d5-ba584b2c82d7",
+    "fields": {
+      "name": "Brand Guidelines",
+      "quantity": 1,
+      "price": "1800.90",
+      "invoice": "b8cb4554-593a-4b7e-ae28-a046f1dcba58"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "b9caac24-3f4a-4d6f-8c77-404fe351c68c",
+    "fields": {
+      "name": "Logo Sketches",
+      "quantity": 1,
+      "price": "102.04",
+      "invoice": "ed496cfb-9e88-4c63-afc3-182a17368f6a"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "c0965111-781a-439f-bd04-e645725f51f7",
+    "fields": {
+      "name": "Banner Design",
+      "quantity": 1,
+      "price": "156.00",
+      "invoice": "e0e23f34-ad20-4c39-8e70-c75519d05b1a"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "c3260e49-b7bb-4b95-b9b8-d20e373fb77a",
+    "fields": {
+      "name": "Logo Re-design",
+      "quantity": 1,
+      "price": "3102.04",
+      "invoice": "b5ff69ac-5118-4cfb-8dd9-efd3218915c0"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "cff5f765-f3aa-4424-ba18-4abc81c24ea8",
+    "fields": {
+      "name": "Web Design",
+      "quantity": 1,
+      "price": "6155.91",
+      "invoice": "d8931f38-e53a-4946-ba1f-bc7022647c2a"
+    }
+  },
+  {
+    "model": "invoices.invoiceitem",
+    "pk": "fe5578f2-0374-4338-85d5-df9041902da3",
+    "fields": {
+      "name": "Brand Guidelines",
+      "quantity": 1,
+      "price": "2500.00",
+      "invoice": "d5dbf54e-849f-43ba-96ce-819a2537d0bb"
+    }
+  }
+]
